@@ -1,13 +1,13 @@
 import Header from "../components/Header";
 import { MainContainer } from "../style";
 
-function HomePage() {
+function LoginPage() {
   return (
     <MainContainer>
       <Header />
-      <h1>Página Inicial</h1>
+      <h1>Página de login</h1>
     </MainContainer>
   );
 }
 
-export default HomePage;
+export default LoginPage;
